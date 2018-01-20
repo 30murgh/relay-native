@@ -1,4 +1,4 @@
-# Relay Native
+# Relay Native [![Build Status][build-image]][build][![Maintainability][maintainability-image]][maintainability] [![Test Coverage][coverage-image]][coverage]
 
 Relay Native is a project template (aka boilerplate) for creating mobile apps with:
 * [**React Native**][react-native] framework for building native apps with React.
@@ -111,3 +111,12 @@ Copyright © 2018-present 30murgh Community. This source code is licensed under 
 [webstorm]: https://www.jetbrains.com/webstorm
 [vsc]: https://code.visualstudio.com
 [license]: https://github.com/30murgh/relay-native/blob/master/LICENSE
+
+[build-image]: https://travis-ci.org/30murgh/relay-native.svg?branch=master
+[build]: https://travis-ci.org/30murgh/relay-native
+
+[maintainability-image]: https://api.codeclimate.com/v1/badges/8c924941260c08609184/maintainability
+[maintainability]: https://codeclimate.com/github/30murgh/relay-native/maintainability
+
+[coverage-image]: https://api.codeclimate.com/v1/badges/8c924941260c08609184/test_coverage
+[coverage]: https://codeclimate.com/github/30murgh/relay-native/test_coverage

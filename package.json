@@ -33,7 +33,7 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch",
+    "test": "node node_modules/jest/bin/jest.js",
     "coverage": "node node_modules/jest/bin/jest.js --coverage",
     "relay": "relay-compiler --src ./src --schema ./data/schema.json --extensions ts tsx js jsx",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
