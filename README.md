@@ -1,4 +1,4 @@
-# Relay Native [![Build Status][build-image]][build][![Maintainability][maintainability-image]][maintainability] [![Test Coverage][coverage-image]][coverage]
+# Relay Native [![Build Status][build-image]][build] [![Maintainability][maintainability-image]][maintainability] [![Test Coverage][coverage-image]][coverage]
 
 Relay Native is a project template (aka boilerplate) for creating mobile apps with:
 * [**React Native**][react-native] framework for building native apps with React.
@@ -64,7 +64,7 @@ This project was bootstrapped with [Create React Native App][crna]. In order to 
 ## Running
 You can run the app with or without [Expo][expo].
 
-Before anything, run `yarn run relay`
+Before anything, run `yarn relay`
 
 #### with Expo
 First run `yarn start`
@@ -83,9 +83,9 @@ Relay Native uses [Jest][jest] for testing and uses [TSLint][tslint], [ESLint][e
 
 In order to test the project use on of the commands below:
 - `yarn test`
-- `yarn run coverage`
+- `yarn coverage`
 
-In order to check the project's code style run `yarn run lint`
+In order to check the project's code style run `yarn lint`
 
 ## License
 Copyright © 2018-present 30murgh Community. This source code is licensed under the MIT license found in the [LICENSE file][license].

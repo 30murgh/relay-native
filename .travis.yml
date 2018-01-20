@@ -25,14 +25,14 @@ before_install:
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
   - export CI=false
   - cp src/env.sample.json src/env.json
 
 script:
-  - yarn run relay
-  - yarn run lint
-  - ./cc-test-reporter before-build
-  - yarn test --maxWorkers=4
+  - yarn relay
+  - yarn lint
+  - yarn coverage
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

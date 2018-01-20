@@ -57,7 +57,8 @@
     "coverageDirectory": "coverage",
     "coverageReporters": [
       "text-summary",
-      "html"
+      "html",
+      "lcov"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
