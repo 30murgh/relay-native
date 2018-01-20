@@ -5,6 +5,10 @@ language: node_js
 node_js:
   - "9.3.0"
 
+branches:
+  only:
+  - master
+
 matrix:
   fast_finish: true
 
